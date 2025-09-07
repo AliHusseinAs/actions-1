@@ -16,5 +16,5 @@ jobs:
             
             - name: read file readme.md 
               run: cat README.md
-            - name: checkout again
-              run: pwd mock.txt
+            - name: remove file
+              run: rm -r /home/runner/work/actions-1/actions-1/mock.txt
