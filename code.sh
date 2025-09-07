@@ -1,1 +1,1 @@
-echo "code from shell script"
+sudo echo "code from shell script"
