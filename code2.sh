@@ -1,1 +1,1 @@
-echo "the 2nd job is done"
+echo "the 2nd job is done and first job was done too"
