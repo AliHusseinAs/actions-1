@@ -16,4 +16,5 @@ jobs:
             
             - name: read file readme.md 
               run: cat README.md
-              
+            - name: create mock.txt file
+              run: touch mock.txt
