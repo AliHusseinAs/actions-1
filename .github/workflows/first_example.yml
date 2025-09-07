@@ -16,5 +16,7 @@ jobs:
             
             - name: read file readme.md 
               run: cat README.md
+            - name: checkout again
+              uses: actions/checkout@v5
             - name: delete mock.txt file
               run: rm -r mock.txt
