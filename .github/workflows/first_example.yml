@@ -8,5 +8,7 @@ jobs:
         steps:
             - name: checkout repo
               uses: actions/checkout@v5
+            - name: permissions 
+              run: chmod +x ./code.sh
             - name: welcome
               run: ./code.sh
