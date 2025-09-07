@@ -4,7 +4,7 @@ on: push
 
 jobs:
     first_job:
-        runs-on: mac-latest 
+        runs-on: ubuntu-latest 
         steps:
             - name: checkout repo
               uses: actions/checkout@v5
@@ -12,3 +12,12 @@ jobs:
               run: chmod +x ./code.sh
             - name: welcome
               run: ./code.sh
+    second_job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: check
+              run: actions/checkout@v5
+            - name: permissions 2
+              run: chmod +x ./code2.sh
+            - name: run file 2 
+              run: ./code2.sh
