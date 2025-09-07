@@ -9,12 +9,4 @@ jobs:
             - name: checkout repo
               uses: actions/checkout@v5
             - name: welcome
-              run: echo "My firsrt GitHub Actions Pipeline"
-
-            - name: List files 
-              run: ls 
-            
-            - name: read file readme.md 
-              run: 
-                cat README.md 
-                echo "Done"
+              run: ./code.sh
